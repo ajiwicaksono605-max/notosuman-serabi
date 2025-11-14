@@ -35,7 +35,7 @@ function Navbar() {
         {/* Kiri: Logo */}
         <div className="flex items-center space-x-3">
           <img
-            src="/logo.png"
+            src={process.env.PUBLIC_URL + "/logo.png"}
             alt="Logo Serabi"
             className="w-12 h-12 object-contain"
           />

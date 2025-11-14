@@ -22,7 +22,7 @@ function About() {
     >
       {/* Ornamen lembut di background */}
       <img
-        src="/ornamen-batik.png"
+        src={process.env.PUBLIC_URL +"/ornamen-batik.png"}
         alt=""
         className="absolute top-0 left-0 w-full h-full object-cover opacity-10 pointer-events-none"
       />
@@ -34,7 +34,7 @@ function About() {
         }`}
       >
         <img
-          src="/serabi-tradisional.jpg"
+          src={process.env.PUBLIC_URL +"/serabi-tradisional.jpg"}
           alt="Proses Pembuatan Serabi"
           className="rounded-2xl shadow-lg w-80 md:w-[420px] object-cover"
         />

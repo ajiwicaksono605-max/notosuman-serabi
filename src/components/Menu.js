@@ -21,7 +21,7 @@ function Menu() {
       deskripsi:
         "Serabi dengan rasa original, lembut dan gurih, disajikan dengan saus gula merah khas.",
       harga: "Rp 15.000 / Pax",
-      gambar: "/serabi-original.jpg",
+      gambar: process.env.PUBLIC_URL +"/serabi-original.jpg",
       terlaris: true,
     },
     {
@@ -30,7 +30,7 @@ function Menu() {
       deskripsi:
         "Serabi dengan taburan coklat leleh yang manis dan legit, cocok untuk pencinta coklat.",
       harga: "Rp 17.000 / Pax",
-      gambar: "/serabi-coklat.jpg",
+      gambar: process.env.PUBLIC_URL +"/serabi-coklat.jpg",
       terlaris: false,
     },
     {
@@ -38,7 +38,7 @@ function Menu() {
       jenis: "Serabi Campur",
       deskripsi: "Serabi dengan rasa original dan rasa coklat.",
       harga: "Rp 15.000 / Pax",
-      gambar: "/serabi-campur.jpg",
+      gambar: process.env.PUBLIC_URL +"/serabi-campur.jpg",
       terlaris: false,
     },
     {
@@ -47,7 +47,7 @@ function Menu() {
       deskripsi:
         "Serabi dengan rasa original, lembut dan gurih, disajikan dengan saus gula merah khas.",
       harga: "Rp 30.000 / Pax",
-      gambar: "/serabi-original.jpg",
+      gambar: process.env.PUBLIC_URL +"/serabi-original.jpg",
       terlaris: true,
     },
     {
@@ -56,7 +56,7 @@ function Menu() {
       deskripsi:
         "Serabi dengan taburan coklat leleh yang manis dan legit, cocok untuk pencinta coklat.",
       harga: "Rp 34.000 / Pax",
-      gambar: "/serabi-coklat.jpg",
+      gambar: process.env.PUBLIC_URL +"/serabi-coklat.jpg",
       terlaris: false,
     },
     {
@@ -64,7 +64,7 @@ function Menu() {
       jenis: "Serabi Campur",
       deskripsi: "Serabi dengan rasa original dan rasa coklat.",
       harga: "Rp 30.000 / Pax",
-      gambar: "/serabi-campur.jpg",
+      gambar: process.env.PUBLIC_URL +"/serabi-campur.jpg",
       terlaris: false,
     },
   ];

@@ -16,7 +16,7 @@ function Hero() {
     >
       {/* Ornamen batik lembut */}
       <img
-        src="/batik.jpg"
+        src={process.env.PUBLIC_URL +"/batik.jpg"}
         alt=""
         className="absolute top-0 left-0 w-full h-full object-cover opacity-10 pointer-events-none"
       />
@@ -62,7 +62,7 @@ function Hero() {
       >
         <div className="p-4 bg-white rounded-2xl shadow-lg">
           <img
-            src="/serabi.jpeg"
+            src={process.env.PUBLIC_URL +"/serabi.jpeg"}
             alt="Serabi Notosuman"
             className="w-80 md:w-[420px] rounded-xl"
           />

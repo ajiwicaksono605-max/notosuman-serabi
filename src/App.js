@@ -31,8 +31,8 @@ function App() {
   return (
     <div className="bg-gray-50 min-h-screen">
       <Navbar />
-      <About />
       <Hero />
+      <About />
       <Menu />
       <Location />
       <Footer />

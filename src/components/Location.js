@@ -53,7 +53,7 @@ function Location() {
       latitude: -7.797093,
       longitude: 110.362206,
       services: "Dine-in, Takeaway",
-      contact: "http://wa.me/6287783847886",
+      contact: "http://wa.me/6287727920908",
     },
     {
       id: 5,
